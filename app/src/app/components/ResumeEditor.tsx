@@ -31,12 +31,16 @@ export default function Editor({ data, setInfoData }: any ) {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
-    const { name, value, type, checked } = e.target;
+    const { name, value, type } = e.target;
+  
+    // Narrow down the type before accessing `checked`
+    const checked = e.target instanceof HTMLInputElement ? e.target.checked : false;
+  
     setFormData((prev) =>
       prev ? { ...prev, [name]: type === "checkbox" ? checked : value } : prev
     );
   };
-
+  
   const handleDescriptionChange = (content: string) => {
     console.log("Editor Content Updated:", content);
     setFormData((prev: any) => ({
