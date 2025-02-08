@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 "use client";
 import { WorkExperience } from "@/types";
 import {
@@ -12,7 +14,7 @@ import {
 import { useState } from "react";
 import RichTextEditor from "./RichTextEditor";
 
-export default function Editor({ data, setInfoData }: any) {
+export default function Editor({ data, setInfoData }: any ) {
   const [expanded, setExpanded] = useState<string | null>(null);
   const [formData, setFormData] = useState<WorkExperience | null>(null);
   const [isAdding, setIsAdding] = useState(false);
