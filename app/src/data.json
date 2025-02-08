@@ -1,0 +1,139 @@
+
+{
+    "basics": {
+        "name": "JOHN ANDERSON",
+        "label": "Senior Data Scientist",
+        "email": "john.anderson@email.com",
+        "phone": "+1-555-0123-4567",
+        "summary": "Results-driven Data Scientist with 6+ years of experience specializing in machine learning solutions and AI-driven product development.",
+        "location": {
+            "city": "San Francisco",
+            "countryCode": "USA"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "johnanderson_ds",
+                "url": "www.linkedin.com/in/johnanderson_ds/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "TechCorp AI",
+            "location": "San Francisco, USA",
+            "description": [
+                "Leading the Risk and Security ML team focusing on fraud prevention and user authentication systems.",
+                "Developed and deployed multiple production ML models:",
+                "Advanced Document Verification - Implemented synthetic data generation pipeline",
+                "Identity Verification - Developed zero-shot learning model for document authentication",
+                "Text Extraction - Implemented transformer-based models for structured data extraction",
+                "Successfully deployed ML models to 10M+ mobile devices",
+                "Developed user behavior analysis system using clickstream data",
+                "Reduced fraud rates by 40% through ML-based detection systems"
+            ],
+            "position": "Senior Data Scientist - Security & Risk",
+            "startDate": "2021",
+            "endDate": "Present"
+        },
+        {
+            "name": "SearchTech",
+            "location": "Seattle, USA",
+            "description": [
+                "Led search relevance initiatives using advanced ML techniques",
+                "Implemented neural search systems using user behavior patterns",
+                "Core responsibilities: Data Pipeline Development, Feature Engineering, Model Development, A/B Testing",
+                "Improved search CTR by 5% through ML optimization"
+            ],
+            "position": "Data Scientist - Search Intelligence",
+            "startDate": "2019",
+            "endDate": "2021"
+        },
+        {
+            "name": "DroneAI",
+            "location": "Boston, USA",
+            "description": [
+                "Co-founded an AI-powered drone analytics platform",
+                "Architected cloud-native solution for processing terabytes of aerial imagery",
+                "Developed RESTful APIs for large-scale geospatial data processing",
+                "Established and led the technical operations team",
+                "Implemented automated workflow systems for image processing",
+                "Reduced manual processing time by 75% through automation",
+                "Created comprehensive technical documentation and SOPs"
+            ],
+            "position": "CTO and Co-Founder",
+            "startDate": "2016",
+            "endDate": "2019"
+        }
+    ],
+    "volunteer": null,
+    "education": [
+        {
+            "institution": "Massachusetts Institute of Technology",
+            "area": "BS in Computer Science",
+            "studyType": "Undergraduate",
+            "startDate": "2013",
+            "endDate": "2017",
+            "score": null,
+            "courses": []
+        }
+    ],
+    "awards": null,
+    "publications": null,
+    "skills": [
+        {
+            "name": "Python",
+            "level": null,
+            "keywords": null
+        },
+        {
+            "name": "TensorFlow",
+            "level": null,
+            "keywords": null
+        },
+        {
+            "name": "PySpark",
+            "level": null,
+            "keywords": null
+        },
+        {
+            "name": "AWS",
+            "level": null,
+            "keywords": null
+        },
+        {
+            "name": "PyTorch",
+            "level": null,
+            "keywords": null
+        },
+        {
+            "name": "Machine Learning",
+            "level": null,
+            "keywords": null
+        },
+        {
+            "name": "SQL",
+            "level": null,
+            "keywords": null
+        },
+        {
+            "name": "Computer Vision",
+            "level": null,
+            "keywords": null
+        },
+        {
+            "name": "NLP",
+            "level": null,
+            "keywords": null
+        },
+        {
+            "name": "MLOps",
+            "level": null,
+            "keywords": null
+        }
+    ],
+    "languages": null,
+    "interests": null,
+    "references": null,
+    "projects": null
+}
