@@ -8,6 +8,6 @@ export default function Home() {
     const [infoData , setInfoData] = useState(data)
    
   return (
-    <Editor data={infoData} setInfodata={setInfoData}/>
+    <Editor data={infoData} setInfoData={setInfoData}/>
   );
 }

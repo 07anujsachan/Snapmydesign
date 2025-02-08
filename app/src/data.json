@@ -1,4 +1,3 @@
-
 {
     "basics": {
         "name": "JOHN ANDERSON",
@@ -20,6 +19,7 @@
     },
     "work": [
         {
+            "id": "1",
             "name": "TechCorp AI",
             "location": "San Francisco, USA",
             "description": [
@@ -37,6 +37,7 @@
             "endDate": "Present"
         },
         {
+            "id": "2",
             "name": "SearchTech",
             "location": "Seattle, USA",
             "description": [
@@ -50,6 +51,7 @@
             "endDate": "2021"
         },
         {
+            "id": "4",
             "name": "DroneAI",
             "location": "Boston, USA",
             "description": [
